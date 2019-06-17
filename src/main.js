@@ -1,8 +1,3 @@
-import Vue from "vue";
-import App from "./App.vue";
+import testComponent from './components/test.vue';
 
-Vue.config.productionTip = false;
-
-new Vue({
-  render: h => h(App)
-}).$mount("#app");
+export { testComponent };
